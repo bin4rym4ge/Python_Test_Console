@@ -1,4 +1,4 @@
-from console.interpreter import *
+from Python_Test_Console.console.interpreter import *
 
 cmd = ""
 
