@@ -1,4 +1,5 @@
 from console.interpreter import *
+
 cmd = ""
 
 print("****************")
@@ -8,7 +9,7 @@ print("****************")
 while True:
 	try:
 		cmd = input("\n~~>")
-		if cmd == "":
+		if cmd == "" or "quit":
 			break
 		interpret(cmd)
 	except:
