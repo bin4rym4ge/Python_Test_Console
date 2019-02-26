@@ -24,7 +24,7 @@ class commands:
 
 		else:
 			print("Error no input")
-	def pythagInputHandeler:
+	def pythagInputHandeler():
 		while True:
 			a = input("a: ")
 			if a == "" or a == None:
