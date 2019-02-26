@@ -12,5 +12,10 @@ while True:
 		if cmd == "quit":
 			break
 		interpret(cmd)
+
+	except KeyError:
+#		print("KeyError")
+		print("No such command")
+
 	except:
-		print("error")
+		print("nope")
