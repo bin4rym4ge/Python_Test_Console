@@ -1,4 +1,4 @@
-from Python_Test_Console.console.interpreter import *
+from interpreter import *
 
 cmd = ""
 
@@ -9,7 +9,7 @@ print("****************")
 while True:
 	try:
 		cmd = input("\n~~>")
-		if cmd == "" or "quit":
+		if cmd == "quit":
 			break
 		interpret(cmd)
 	except:
