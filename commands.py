@@ -24,6 +24,42 @@ class commands:
 
 		else:
 			print("Error no input")
+	def pythagInputHandeler:
+		while True:
+			a = input("a: ")
+			if a == "" or a == None:
+				a = 0
+
+			try:
+				a = int(a)
+
+			except:
+				print("That is not a number")
+				break
+
+			b = input("b: ")
+			if b == "" or b == None:
+				b = 0
+
+			try:
+				b = int(b)
+
+			except:
+				print("That is not a number")
+				break
+
+			c = input("c: ")
+			if c == "" or c == None:
+				c = 0
+
+			try:
+				c = int(c)
+
+			except:
+				print("That is not a number")
+				break
+
+			print(commands.pythag(a,b,c))
 
 
 cmds = {
