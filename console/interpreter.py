@@ -1,4 +1,4 @@
-from console.commands import *
+from Python_Test_Console.console.commands import *
 
 '''
 def interpret(cmd):
