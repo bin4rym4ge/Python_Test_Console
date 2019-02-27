@@ -17,5 +17,6 @@ while True:
 #		print("KeyError")
 		print("No such command")
 
-#	except:
-#		print("nope")
+	except:
+		print("***UNHANDLED EXCEPTION***")
+		break
