@@ -1,6 +1,9 @@
+from math import sqrt
+
 class commands:
 	def test():
 		print("This is a test.")
+
 
 	def pythag(a,b,c):
 
@@ -24,11 +27,16 @@ class commands:
 
 		else:
 			print("Error no input")
+
+
 	def pythagInputHandeler():
 		while True:
 			a = input("a: ")
 			if a == "" or a == None:
 				a = 0
+
+			elif a == "q" or a == "quit" or a == "exit":
+				break
 
 			try:
 				a = int(a)
@@ -64,5 +72,5 @@ class commands:
 
 cmds = {
 "test": commands.test,
-"pythag": commands.pythag
+"pythag": commands.pythagInputHandeler
 }

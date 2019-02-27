@@ -9,7 +9,7 @@ print("****************")
 while True:
 	try:
 		cmd = input("\n~~>")
-		if cmd == "quit":
+		if cmd == "quit" or cmd == "qqq" or cmd == "exit":
 			break
 		interpret(cmd)
 
@@ -17,5 +17,5 @@ while True:
 #		print("KeyError")
 		print("No such command")
 
-	except:
-		print("nope")
+#	except:
+#		print("nope")
