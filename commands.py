@@ -29,7 +29,7 @@ class commands:
 			print("Error no input")
 
 
-	def pythagInputHandeler():
+	def pythagInputHandler():
 		while True:
 			a = input("a: ")
 			if a == "" or a == None:
@@ -70,7 +70,13 @@ class commands:
 			print(commands.pythag(a,b,c))
 
 
+	def Rsum(Ra,Rb,lod):
+		
+
+
+
 cmds = {
 "test": commands.test,
-"pythag": commands.pythagInputHandeler
+"pythag": commands.pythagInputHandler,
+"": commands.Rsum
 }
