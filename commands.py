@@ -71,12 +71,13 @@ class commands:
 
 
 	def Rsum(Ra,Rb,lod):
-		
+
+		return
 
 
 
 cmds = {
 "test": commands.test,
 "pythag": commands.pythagInputHandler,
-"": commands.Rsum
+"Rsum": commands.Rsum
 }
